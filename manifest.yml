@@ -1,0 +1,10 @@
+---
+applications:
+- name: ZUUL-GW
+  memory: 1024M
+  host: zuul-gw
+  path: ./target/zuul-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+env:
+  JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+ 
