@@ -13,13 +13,13 @@ zuul:
 
 #    user:
 #      path: /user/**
-#      url: http://user-msa.paas-ta.org/user
+#      url: http://edu-msa-user.paas-ta.org/user
 #    board:
 #      path: /board/**
-#      url: http://board-msa.paas-ta.org/board
+#      url: http://edu-msa-board.paas-ta.org/board
 #    comments:
 #      path: /comments/**
-#      url: http://comment-msa.paas-ta.org/comments
+#      url: http://edu-msa-comment.paas-ta.org/comments
 
 hystrix:
   command:
