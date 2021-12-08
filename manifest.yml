@@ -3,7 +3,7 @@ applications:
 - name: edu-msa-zuul
   memory: 1024M
   host: edu-msa-zuul
-  path: ./target/edu-msa-zuul-0.0.1-SNAPSHOT.war
+  path: ./target/edu-msa-zuul-0.0.1.war
   buildpack: java_buildpack
 env:
   JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
