@@ -8,12 +8,12 @@
 		<version>2.3.8.BUILD-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>paasta.msa</groupId>
+	<groupId>kpaas.msa</groupId>
 	<artifactId>edu-msa-zuul</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>edu-msa-zuul</name>
-	<description>PaaS-TA API Gateway</description>
+	<description>K-PaaS API Gateway</description>
 
 	<properties>
 		<java.version>1.8</java.version>
